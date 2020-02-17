@@ -1,7 +1,6 @@
-soma = 0
-
-for i in range(1, 1001):
-	soma = soma + i**i
+s = 0
+for i in range(1, 1000):
+	s += i**i
 	print(i)
 
-print(soma)
+print(s)
